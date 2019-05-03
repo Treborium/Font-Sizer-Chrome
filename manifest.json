@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Font Sizer",
+    "description": "This extension lets you resize the paragraph font size on any web page",
+    "version": "1.1",
+    "browser_action": {
+        "default_icon": "FontSizer-Icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

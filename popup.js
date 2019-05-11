@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
         file: "content.js"
     });
 
-    var button14px = document.getElementById('btn-14px');
-    var button16px = document.getElementById('btn-16px');
+    var button18px = document.getElementById('btn-18px');
     var button20px = document.getElementById('btn-20px');
+    var button22px = document.getElementById('btn-22px');
     var button24px = document.getElementById('btn-24px');
 
-    button14px.addEventListener('click', function() { changeFontSize("14px"); }, false);
-    button16px.addEventListener('click', function() { changeFontSize("16px"); }, false);
+    button18px.addEventListener('click', function() { changeFontSize("18px"); }, false);
     button20px.addEventListener('click', function() { changeFontSize("20px"); }, false);
+    button22px.addEventListener('click', function() { changeFontSize("22px"); }, false);
     button24px.addEventListener('click', function() { changeFontSize("24px"); }, false);
 
 }, false);

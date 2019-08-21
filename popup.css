@@ -28,7 +28,7 @@ h3 {
 button {
     font-size: inherit;
     font-family: inherit;
-    color: #4a5a6a;
+    color: #3a4a5a;
     outline: none;
     border: none;
     background-color: rgba(255, 255, 255, 0.0);
@@ -51,6 +51,10 @@ button:hover {
     display: block;
 }
 
+#reset-btn {
+    float: right;
+}
+
 #btn-18px {
     font-size: 16px;
 }
@@ -65,4 +69,9 @@ button:hover {
 
 #btn-24px {
     font-size: 22px;
+}
+
+.second-row {
+    margin: 10px 5px;
+    margin-top: 30px;
 }

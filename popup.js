@@ -12,9 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     var buttons = document.getElementsByTagName('button');
+    var resetButton = document.getElementById('reset-btn');
 
     for (var i = 0, l = buttons.length; i < l; i++) {
         buttons[i].addEventListener('click', function() { changeFontSize(this.innerHTML); }, false);
     }
+
+    resetButton.addEventListener('click', function() { changeFontSize("") });
 
 }, false);

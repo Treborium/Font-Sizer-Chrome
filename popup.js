@@ -13,11 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var buttons = document.getElementsByTagName('button');
     var resetButton = document.getElementById('reset-btn');
+    var pickElementButton = document.getElementById('pick-element-btn');
 
     for (var i = 0, l = buttons.length; i < l; i++) {
         buttons[i].addEventListener('click', function() { changeFontSize(this.innerHTML); }, false);
     }
 
-    resetButton.addEventListener('click', function() { changeFontSize("") });
+    resetButton.addEventListener('click', function() { changeFontSize(""); });
+
+    pickElementButton.addEventListener('click', function() {
+        alert("This feature isn't supported yet.");
+    });
 
 }, false);
